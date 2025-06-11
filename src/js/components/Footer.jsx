@@ -2,9 +2,11 @@ import React from "react";
 
 const Footer =() =>{
     return (
-        <div className="footer footer-fluid">
-                <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
+        <footer className="bg-dark text-white py-4 mt-auto">
+            <div className="container text-center">
+                <p className="mb-2">Copyright © Your Website 2019</p>
+            </div>
+        </footer>
     );
 };
 
